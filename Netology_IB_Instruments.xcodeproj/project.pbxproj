@@ -13,6 +13,7 @@
 		60442437281D3B7500F1F3BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60442435281D3B7500F1F3BC /* Main.storyboard */; };
 		60442439281D3B7C00F1F3BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60442438281D3B7C00F1F3BC /* Assets.xcassets */; };
 		6044243C281D3B7C00F1F3BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6044243A281D3B7C00F1F3BC /* LaunchScreen.storyboard */; };
+		60442444281D770D00F1F3BC /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 60442443281D770D00F1F3BC /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		60442438281D3B7C00F1F3BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6044243B281D3B7C00F1F3BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6044243D281D3B7C00F1F3BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60442443281D770D00F1F3BC /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		60442423281D3B7400F1F3BC = {
 			isa = PBXGroup;
 			children = (
+				60442443281D770D00F1F3BC /* .gitignore */,
 				6044242E281D3B7400F1F3BC /* Netology_IB_Instruments */,
 				6044242D281D3B7400F1F3BC /* Products */,
 			);
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60442444281D770D00F1F3BC /* .gitignore in Resources */,
 				6044243C281D3B7C00F1F3BC /* LaunchScreen.storyboard in Resources */,
 				60442439281D3B7C00F1F3BC /* Assets.xcassets in Resources */,
 				60442437281D3B7500F1F3BC /* Main.storyboard in Resources */,
@@ -305,7 +309,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -332,7 +336,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
