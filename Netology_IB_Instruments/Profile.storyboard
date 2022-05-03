@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Profile View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" customClass="ProfileViewController" customModule="Netology_IB_Instruments" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Vcf-Oj-bdk">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Cp-4k-dJa" customClass="ProfileView" customModule="Netology_IB_Instruments" customModuleProvider="target">
+                                <rect key="frame" x="20" y="54" width="374" height="798"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Y7-do-ibd"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="8Cp-4k-dJa" firstAttribute="leading" secondItem="6Y7-do-ibd" secondAttribute="leading" constant="20" id="0zW-X8-O9j"/>
+                            <constraint firstItem="6Y7-do-ibd" firstAttribute="trailing" secondItem="8Cp-4k-dJa" secondAttribute="trailing" constant="20" id="FTV-nu-G9G"/>
+                            <constraint firstItem="8Cp-4k-dJa" firstAttribute="centerY" secondItem="6Y7-do-ibd" secondAttribute="centerY" id="n7L-m5-GrG"/>
+                            <constraint firstItem="8Cp-4k-dJa" firstAttribute="top" secondItem="6Y7-do-ibd" secondAttribute="top" constant="10" id="rOG-aN-Kav"/>
+                            <constraint firstItem="8Cp-4k-dJa" firstAttribute="centerX" secondItem="6Y7-do-ibd" secondAttribute="centerX" id="su5-uo-5Nj"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="80.357142857142847"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
