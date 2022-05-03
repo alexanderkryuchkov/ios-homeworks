@@ -16,14 +16,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8Cp-4k-dJa" customClass="ProfileView" customModule="Netology_IB_Instruments" customModuleProvider="target">
-                                <rect key="frame" x="32" y="58" width="350" height="450"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Cp-4k-dJa" customClass="ProfileView" customModule="Netology_IB_Instruments" customModuleProvider="target">
+                                <rect key="frame" x="20" y="54" width="374" height="798"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Y7-do-ibd"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="8Cp-4k-dJa" firstAttribute="leading" secondItem="6Y7-do-ibd" secondAttribute="leading" constant="20" id="0zW-X8-O9j"/>
+                            <constraint firstItem="6Y7-do-ibd" firstAttribute="trailing" secondItem="8Cp-4k-dJa" secondAttribute="trailing" constant="20" id="FTV-nu-G9G"/>
                             <constraint firstItem="8Cp-4k-dJa" firstAttribute="centerY" secondItem="6Y7-do-ibd" secondAttribute="centerY" id="n7L-m5-GrG"/>
+                            <constraint firstItem="8Cp-4k-dJa" firstAttribute="top" secondItem="6Y7-do-ibd" secondAttribute="top" constant="10" id="rOG-aN-Kav"/>
                             <constraint firstItem="8Cp-4k-dJa" firstAttribute="centerX" secondItem="6Y7-do-ibd" secondAttribute="centerX" id="su5-uo-5Nj"/>
                         </constraints>
                     </view>
